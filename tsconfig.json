@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "allowJs": true,
+      "module": "commonjs",
+      "rootDir": "./",
+      "outDir": "./build",
+      "esModuleInterop": true,
+      "strict": true,
+      "lib": [
+        "es2019"
+      ],
+      "skipLibCheck": true
+    },
+    "exclude": [
+      "node_modules",
+      "views",
+      "build",
+      "public"
+  ]
+  }
